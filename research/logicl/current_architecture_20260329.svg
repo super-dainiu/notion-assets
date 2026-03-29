@@ -1,0 +1,149 @@
+<svg width="1600" height="980" viewBox="0 0 1600 980" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="80" y1="60" x2="1520" y2="920" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F6F7F2"/>
+      <stop offset="1" stop-color="#ECEDE5"/>
+    </linearGradient>
+    <linearGradient id="protein" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#D7ECFF"/>
+      <stop offset="1" stop-color="#B5D8F7"/>
+    </linearGradient>
+    <linearGradient id="drug" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FCE3C4"/>
+      <stop offset="1" stop-color="#F4C98A"/>
+    </linearGradient>
+    <linearGradient id="core" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#DCEFD9"/>
+      <stop offset="1" stop-color="#B8DFB1"/>
+    </linearGradient>
+    <linearGradient id="logic" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#F6D7D8"/>
+      <stop offset="1" stop-color="#EAB0B6"/>
+    </linearGradient>
+    <linearGradient id="fine" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#E3DBF7"/>
+      <stop offset="1" stop-color="#C5B6EC"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0 0L12 6L0 12V0Z" fill="#495057"/>
+    </marker>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#000000" flood-opacity="0.10"/>
+    </filter>
+    <style>
+      .title { font: 700 34px Arial, sans-serif; fill: #1E2A2F; }
+      .subtitle { font: 500 17px Arial, sans-serif; fill: #42515A; }
+      .section { font: 700 22px Arial, sans-serif; fill: #233039; }
+      .body { font: 500 18px Arial, sans-serif; fill: #22313A; }
+      .small { font: 500 15px Arial, sans-serif; fill: #4D5E67; }
+      .tiny { font: 500 13px Arial, sans-serif; fill: #5E7078; }
+      .chip { font: 700 14px Arial, sans-serif; fill: #233039; }
+      .mono { font: 600 15px 'Courier New', monospace; fill: #22313A; }
+      .box { stroke: #2E4049; stroke-width: 2.2; rx: 22; }
+      .panel { stroke: #8B959B; stroke-width: 2; rx: 26; }
+      .flow { stroke: #495057; stroke-width: 3.2; marker-end: url(#arrow); }
+      .soft { stroke: #6D7980; stroke-width: 2.2; stroke-dasharray: 8 8; marker-end: url(#arrow); }
+    </style>
+  </defs>
+
+  <rect x="20" y="20" width="1560" height="940" rx="32" fill="url(#bg)" stroke="#D2D6CE" stroke-width="2"/>
+
+  <text x="70" y="86" class="title">LogiCL Current Architecture</text>
+  <text x="70" y="116" class="subtitle">Dual-encoder conditional masked language model with bidirectional cross-attention, logit-space pretraining, and a drug-logit projection fine-tuning head.</text>
+
+  <rect x="60" y="150" width="1480" height="520" class="panel" fill="#FAFBF8" filter="url(#shadow)"/>
+  <text x="88" y="190" class="section">Shared Base Model</text>
+  <text x="88" y="216" class="small">Implemented by <tspan class="mono">BiDirectionalDrugProteinModel</tspan></text>
+
+  <rect x="90" y="260" width="250" height="110" class="box" fill="url(#protein)"/>
+  <text x="118" y="305" class="section">Protein Input</text>
+  <text x="118" y="333" class="body">AA sequence</text>
+  <text x="118" y="358" class="small">tokenized to ids + mask</text>
+
+  <rect x="90" y="450" width="250" height="110" class="box" fill="url(#drug)"/>
+  <text x="118" y="495" class="section">Drug Input</text>
+  <text x="118" y="523" class="body">SELFIES string</text>
+  <text x="118" y="548" class="small">tokenized to ids + mask</text>
+
+  <rect x="400" y="250" width="280" height="130" class="box" fill="url(#protein)"/>
+  <text x="430" y="298" class="section">ESM Masked LM</text>
+  <text x="430" y="326" class="body">protein encoder</text>
+  <text x="430" y="352" class="small">returns hidden states and LM head</text>
+
+  <rect x="400" y="440" width="280" height="130" class="box" fill="url(#drug)"/>
+  <text x="430" y="488" class="section">SELFormer Masked LM</text>
+  <text x="430" y="516" class="body">drug encoder</text>
+  <text x="430" y="542" class="small">base transformer + drug LM head</text>
+
+  <rect x="740" y="470" width="220" height="70" class="box" fill="#FFF3DF"/>
+  <text x="782" y="513" class="body">drug_proj_in</text>
+  <text x="776" y="535" class="tiny">drug_dim to shared_dim</text>
+
+  <rect x="1020" y="250" width="330" height="250" class="box" fill="url(#core)"/>
+  <text x="1052" y="292" class="section">Bidirectional Cross-Attention</text>
+  <text x="1052" y="322" class="body">N layers</text>
+  <text x="1052" y="350" class="small">protein attends to drug</text>
+  <text x="1052" y="376" class="small">drug attends to protein</text>
+  <text x="1052" y="410" class="small">pre-norm attention + FFN blocks</text>
+  <text x="1052" y="438" class="small">shared hidden size = protein dim</text>
+  <rect x="1052" y="456" width="120" height="30" rx="15" fill="#CFE8CA" stroke="#2E4049" stroke-width="1.8"/>
+  <text x="1081" y="476" class="chip">prot_gate</text>
+  <rect x="1190" y="456" width="124" height="30" rx="15" fill="#CFE8CA" stroke="#2E4049" stroke-width="1.8"/>
+  <text x="1220" y="476" class="chip">drug_gate</text>
+
+  <rect x="1020" y="540" width="230" height="90" class="box" fill="#EEF7EC"/>
+  <text x="1050" y="578" class="section">Protein Branch</text>
+  <text x="1050" y="606" class="body">prot_hidden to prot_conditioned</text>
+
+  <rect x="1290" y="540" width="210" height="90" class="box" fill="#EEF7EC"/>
+  <text x="1320" y="578" class="section">Drug Branch</text>
+  <text x="1320" y="606" class="body">drug_hidden to conditioned</text>
+
+  <rect x="1380" y="250" width="120" height="100" class="box" fill="#FFF3DF"/>
+  <text x="1406" y="292" class="body">drug_proj_out</text>
+  <text x="1403" y="316" class="tiny">shared_dim</text>
+  <text x="1422" y="334" class="tiny">to drug_dim</text>
+
+  <rect x="700" y="710" width="840" height="210" class="panel" fill="#FBFAFD" filter="url(#shadow)"/>
+  <text x="728" y="748" class="section">Readouts and Objectives</text>
+
+  <rect x="730" y="785" width="250" height="100" class="box" fill="url(#logic)"/>
+  <text x="758" y="824" class="section">Pretraining Readouts</text>
+  <text x="758" y="852" class="body">protein LM head</text>
+  <text x="758" y="874" class="small">drug LM head on projected drug branch</text>
+
+  <rect x="1010" y="785" width="230" height="100" class="box" fill="url(#logic)"/>
+  <text x="1038" y="824" class="section">LogiCL Losses</text>
+  <text x="1038" y="852" class="body">MLM on both modalities</text>
+  <text x="1038" y="874" class="small">NT-Xent on masked log-prob scores</text>
+
+  <rect x="1270" y="785" width="240" height="100" class="box" fill="url(#fine)"/>
+  <text x="1296" y="824" class="section">Fine-Tuning Head</text>
+  <text x="1296" y="852" class="body">DrugLogitProjection</text>
+  <text x="1296" y="874" class="small">adds logit-space bias on protein logits</text>
+
+  <rect x="60" y="710" width="600" height="210" class="panel" fill="#FCFCFA" filter="url(#shadow)"/>
+  <text x="88" y="748" class="section">What This Architecture Means</text>
+  <text x="88" y="786" class="body">1. Protein and drug are encoded separately with masked language models.</text>
+  <text x="88" y="816" class="body">2. Cross-attention conditions each modality on the other before logits are read out.</text>
+  <text x="88" y="846" class="body">3. Pretraining is still token-level and logit-level, not pooled-embedding contrastive learning.</text>
+  <text x="88" y="876" class="body">4. Fine-tuning keeps the shared base model and adds a small logit-space bias head.</text>
+
+  <line x1="340" y1="315" x2="400" y2="315" class="flow"/>
+  <line x1="340" y1="505" x2="400" y2="505" class="flow"/>
+  <line x1="680" y1="315" x2="1020" y2="315" class="flow"/>
+  <line x1="680" y1="505" x2="740" y2="505" class="flow"/>
+  <line x1="960" y1="505" x2="1020" y2="505" class="flow"/>
+  <line x1="1185" y1="500" x2="1185" y2="540" class="flow"/>
+  <line x1="1395" y1="500" x2="1395" y2="540" class="flow"/>
+  <line x1="1350" y1="315" x2="1380" y2="315" class="flow"/>
+  <line x1="1440" y1="350" x2="1440" y2="785" class="flow"/>
+  <line x1="1135" y1="630" x2="1135" y2="785" class="flow"/>
+  <line x1="1395" y1="630" x2="1395" y2="785" class="soft"/>
+  <line x1="855" y1="630" x2="855" y2="785" class="flow"/>
+
+  <text x="760" y="460" class="tiny">align drug hidden size to protein hidden size</text>
+  <text x="1386" y="232" class="tiny">before drug LM head</text>
+  <text x="760" y="905" class="tiny">shared base model</text>
+  <text x="1308" y="905" class="tiny">used only during supervised fine-tuning</text>
+</svg>
