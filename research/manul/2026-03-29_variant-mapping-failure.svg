@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="872.064pt" height="472.32pt" viewBox="0 0 872.064 472.32" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-03-29T02:03:27.304118</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 472.32 
+L 872.064 472.32 
+L 872.064 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 20.20608 217.4976 
+L 167.47776 217.4976 
+Q 202.12992 217.4976 202.12992 198.8352 
+L 202.12992 124.1856 
+Q 202.12992 105.5232 167.47776 105.5232 
+L 20.20608 105.5232 
+Q -14.44608 105.5232 -14.44608 124.1856 
+L -14.44608 198.8352 
+Q -14.44608 217.4976 20.20608 217.4976 
+z
+" clip-path="url(#p2efc3023f4)" style="fill: #eef1f5; stroke: #51606f; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 236.78208 217.4976 
+L 384.05376 217.4976 
+Q 418.70592 217.4976 418.70592 198.8352 
+L 418.70592 124.1856 
+Q 418.70592 105.5232 384.05376 105.5232 
+L 236.78208 105.5232 
+Q 202.12992 105.5232 202.12992 124.1856 
+L 202.12992 198.8352 
+Q 202.12992 217.4976 236.78208 217.4976 
+z
+" clip-path="url(#p2efc3023f4)" style="fill: #fbe4e6; stroke: #a61b29; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 453.35808 217.4976 
+L 600.62976 217.4976 
+Q 635.28192 217.4976 635.28192 198.8352 
+L 635.28192 124.1856 
+Q 635.28192 105.5232 600.62976 105.5232 
+L 453.35808 105.5232 
+Q 418.70592 105.5232 418.70592 124.1856 
+L 418.70592 198.8352 
+Q 418.70592 217.4976 453.35808 217.4976 
+z
+" clip-path="url(#p2efc3023f4)" style="fill: #fbe4e6; stroke: #a61b29; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 669.93408 217.4976 
+L 817.20576 217.4976 
+Q 851.85792 217.4976 851.85792 198.8352 
+L 851.85792 124.1856 
+Q 851.85792 105.5232 817.20576 105.5232 
+L 669.93408 105.5232 
+Q 635.28192 105.5232 635.28192 124.1856 
+L 635.28192 198.8352 
+Q 635.28192 217.4976 669.93408 217.4976 
+z
+" clip-path="url(#p2efc3023f4)" style="fill: #fbe4e6; stroke: #a61b29; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 190.80621 161.5104 
+Q 202.13218 161.5104 211.892902 161.5104 
+" clip-path="url(#p2efc3023f4)" style="fill: none; stroke: #a61b29; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 206.292902 158.7104 
+L 211.892902 161.5104 
+L 206.292902 164.3104 
+z
+" clip-path="url(#p2efc3023f4)" style="fill: #a61b29; stroke: #a61b29; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 407.38221 161.5104 
+Q 418.70818 161.5104 428.468902 161.5104 
+" clip-path="url(#p2efc3023f4)" style="fill: none; stroke: #a61b29; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 422.868902 158.7104 
+L 428.468902 161.5104 
+L 422.868902 164.3104 
+z
+" clip-path="url(#p2efc3023f4)" style="fill: #a61b29; stroke: #a61b29; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 623.95821 161.5104 
+Q 635.28418 161.5104 645.044902 161.5104 
+" clip-path="url(#p2efc3023f4)" style="fill: none; stroke: #a61b29; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 639.444902 158.7104 
+L 645.044902 161.5104 
+L 639.444902 164.3104 
+z
+" clip-path="url(#p2efc3023f4)" style="fill: #a61b29; stroke: #a61b29; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 20.20608 427.4496 
+L 167.47776 427.4496 
+Q 202.12992 427.4496 202.12992 408.7872 
+L 202.12992 334.1376 
+Q 202.12992 315.4752 167.47776 315.4752 
+L 20.20608 315.4752 
+Q -14.44608 315.4752 -14.44608 334.1376 
+L -14.44608 408.7872 
+Q -14.44608 427.4496 20.20608 427.4496 
+z
+" clip-path="url(#p2efc3023f4)" style="fill: #e0f0e8; stroke: #1b6e4b; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 236.78208 427.4496 
+L 384.05376 427.4496 
+Q 418.70592 427.4496 418.70592 408.7872 
+L 418.70592 334.1376 
+Q 418.70592 315.4752 384.05376 315.4752 
+L 236.78208 315.4752 
+Q 202.12992 315.4752 202.12992 334.1376 
+L 202.12992 408.7872 
+Q 202.12992 427.4496 236.78208 427.4496 
+z
+" clip-path="url(#p2efc3023f4)" style="fill: #e0f0e8; stroke: #1b6e4b; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 453.35808 427.4496 
+L 600.62976 427.4496 
+Q 635.28192 427.4496 635.28192 408.7872 
+L 635.28192 334.1376 
+Q 635.28192 315.4752 600.62976 315.4752 
+L 453.35808 315.4752 
+Q 418.70592 315.4752 418.70592 334.1376 
+L 418.70592 408.7872 
+Q 418.70592 427.4496 453.35808 427.4496 
+z
+" clip-path="url(#p2efc3023f4)" style="fill: #e0f0e8; stroke: #1b6e4b; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 669.93408 427.4496 
+L 817.20576 427.4496 
+Q 851.85792 427.4496 851.85792 408.7872 
+L 851.85792 334.1376 
+Q 851.85792 315.4752 817.20576 315.4752 
+L 669.93408 315.4752 
+Q 635.28192 315.4752 635.28192 334.1376 
+L 635.28192 408.7872 
+Q 635.28192 427.4496 669.93408 427.4496 
+z
+" clip-path="url(#p2efc3023f4)" style="fill: #e0f0e8; stroke: #1b6e4b; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 190.80621 371.4624 
+Q 202.13218 371.4624 211.892902 371.4624 
+" clip-path="url(#p2efc3023f4)" style="fill: none; stroke: #1b6e4b; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 206.292902 368.6624 
+L 211.892902 371.4624 
+L 206.292902 374.2624 
+z
+" clip-path="url(#p2efc3023f4)" style="fill: #1b6e4b; stroke: #1b6e4b; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 407.38221 371.4624 
+Q 418.70818 371.4624 428.468902 371.4624 
+" clip-path="url(#p2efc3023f4)" style="fill: none; stroke: #1b6e4b; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 422.868902 368.6624 
+L 428.468902 371.4624 
+L 422.868902 374.2624 
+z
+" clip-path="url(#p2efc3023f4)" style="fill: #1b6e4b; stroke: #1b6e4b; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 623.95821 371.4624 
+Q 635.28418 371.4624 645.044902 371.4624 
+" clip-path="url(#p2efc3023f4)" style="fill: none; stroke: #1b6e4b; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 639.444902 368.6624 
+L 645.044902 371.4624 
+L 639.444902 374.2624 
+z
+" clip-path="url(#p2efc3023f4)" style="fill: #1b6e4b; stroke: #1b6e4b; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 14px; font-family: 'Arial', 'Helvetica', 'Nimbus Sans', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1f2933" x="2.88" y="22.402762" transform="rotate(-0 2.88 22.402762)">Variant Mapping Failure in the Personal-Genome Pipeline</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 8.8px; font-family: 'Arial', 'Helvetica', 'Nimbus Sans', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #5f6b7a" x="2.88" y="39.612525" transform="rotate(-0 2.88 39.612525)">What failed: process_variants() computed the right sequence-relative fields, but the notebook wrote raw genomic positions into the Zarr store.</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Arial', 'Helvetica', 'Nimbus Sans', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #a61b29" x="2.88" y="80.246475" transform="rotate(-0 2.88 80.246475)">Buggy path (what actually happened)</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 9.2px; font-family: 'Arial', 'Helvetica', 'Nimbus Sans', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1f2933" x="8.337715" y="136.39682" transform="rotate(-0 8.337715 136.39682)">1. Variant preprocessing</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 7.8px; font-family: 'Arial', 'Helvetica', 'Nimbus Sans', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #1f2933" transform="translate(8.337715 152.258636)">process_variants() computed</text>
+    <text style="font-size: 7.8px; font-family: 'Arial', 'Helvetica', 'Nimbus Sans', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #1f2933" transform="translate(8.337715 161.158314)">rel_pos and alt_tx correctly</text>
+    <text style="font-size: 7.8px; font-family: 'Arial', 'Helvetica', 'Nimbus Sans', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #1f2933" transform="translate(8.337715 170.181574)">for each gene window.</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 9.2px; font-family: 'Arial', 'Helvetica', 'Nimbus Sans', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1f2933" x="224.913715" y="136.39682" transform="rotate(-0 224.913715 136.39682)">2. Wrong Zarr payload</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 7.8px; font-family: 'Arial', 'Helvetica', 'Nimbus Sans', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #1f2933" transform="translate(224.913715 152.163574)">variant.ipynb wrote</text>
+    <text style="font-size: 7.8px; font-family: 'Arial', 'Helvetica', 'Nimbus Sans', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #1f2933" transform="translate(224.913715 161.186833)">pos and alt instead of</text>
+    <text style="font-size: 7.8px; font-family: 'Arial', 'Helvetica', 'Nimbus Sans', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #1f2933" transform="translate(224.913715 169.995105)">rel_pos and alt_tx.</text>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 700; font-size: 9.2px; font-family: 'Arial', 'Helvetica', 'Nimbus Sans', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1f2933" x="441.489715" y="136.39682" transform="rotate(-0 441.489715 136.39682)">3. Loader assumption</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 7.8px; font-family: 'Arial', 'Helvetica', 'Nimbus Sans', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #1f2933" transform="translate(441.489715 152.163574)">PatientVariantDataset treated</text>
+    <text style="font-size: 7.8px; font-family: 'Arial', 'Helvetica', 'Nimbus Sans', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #1f2933" transform="translate(441.489715 161.095427)">stored positions as sequence offsets</text>
+    <text style="font-size: 7.8px; font-family: 'Arial', 'Helvetica', 'Nimbus Sans', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #1f2933" transform="translate(441.489715 169.933802)">and skipped pos &gt;= 524,288.</text>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 9.2px; font-family: 'Arial', 'Helvetica', 'Nimbus Sans', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1f2933" x="658.065715" y="136.481632" transform="rotate(-0 658.065715 136.481632)">4. Biological effect</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 7.8px; font-family: 'Arial', 'Helvetica', 'Nimbus Sans', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #1f2933" transform="translate(658.065715 152.163574)">Most variants were never applied</text>
+    <text style="font-size: 7.8px; font-family: 'Arial', 'Helvetica', 'Nimbus Sans', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #1f2933" transform="translate(658.065715 160.971846)">to the sequence, so within one subtype</text>
+    <text style="font-size: 7.8px; font-family: 'Arial', 'Helvetica', 'Nimbus Sans', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #1f2933" transform="translate(658.065715 169.871524)">predictions became nearly donor-invariant.</text>
+   </g>
+   <g id="text_12">
+    <g id="patch_16">
+     <path d="M 228.11904 255.017437 
+L 505.77104 255.017437 
+Q 508.23104 255.017437 508.23104 252.557437 
+L 508.23104 236.256094 
+Q 508.23104 233.796094 505.77104 233.796094 
+L 228.11904 233.796094 
+Q 225.65904 233.796094 225.65904 236.256094 
+L 225.65904 252.557437 
+Q 225.65904 255.017437 228.11904 255.017437 
+z
+" style="fill: #ffffff; stroke: #a61b29; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 8.2px; font-family: 'Arial', 'Helvetica', 'Nimbus Sans', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #a61b29" transform="translate(228.11904 242.129344)">Example from the broken store: A1CF stored pos = 50,816,728.</text>
+    <text style="font-size: 8.2px; font-family: 'Arial', 'Helvetica', 'Nimbus Sans', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #a61b29" transform="translate(228.11904 250.831594)">The loader checked pos &lt; 524,288, so that variant was skipped immediately.</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 8.2px; font-family: 'Arial', 'Helvetica', 'Nimbus Sans', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #a61b29" transform="translate(678.59712 242.134469)">Observed symptom:</text>
+    <text style="font-size: 8.2px; font-family: 'Arial', 'Helvetica', 'Nimbus Sans', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #a61b29" transform="translate(678.59712 251.023525)">same cell type + same gene + different donor</text>
+    <text style="font-size: 8.2px; font-family: 'Arial', 'Helvetica', 'Nimbus Sans', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #a61b29" transform="translate(678.59712 259.792656)">=&gt; predicted values almost unchanged</text>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Arial', 'Helvetica', 'Nimbus Sans', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1b6e4b" x="2.88" y="290.198475" transform="rotate(-0 2.88 290.198475)">Fixed path (now enforced in code)</text>
+   </g>
+   <g id="text_15">
+    <text style="font-weight: 700; font-size: 9.2px; font-family: 'Arial', 'Helvetica', 'Nimbus Sans', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1f2933" x="8.337715" y="346.433632" transform="rotate(-0 8.337715 346.433632)">1. Keep the right fields</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 7.8px; font-family: 'Arial', 'Helvetica', 'Nimbus Sans', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #1f2933" transform="translate(8.337715 362.115574)">The store writer now requires</text>
+    <text style="font-size: 7.8px; font-family: 'Arial', 'Helvetica', 'Nimbus Sans', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #1f2933" transform="translate(8.337715 371.047427)">rel_pos and alt_tx from</text>
+    <text style="font-size: 7.8px; font-family: 'Arial', 'Helvetica', 'Nimbus Sans', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #1f2933" transform="translate(8.337715 379.97928)">process_variants().</text>
+   </g>
+   <g id="text_17">
+    <text style="font-weight: 700; font-size: 9.2px; font-family: 'Arial', 'Helvetica', 'Nimbus Sans', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1f2933" x="224.913715" y="346.321507" transform="rotate(-0 224.913715 346.321507)">2. Strict schema</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 7.8px; font-family: 'Arial', 'Helvetica', 'Nimbus Sans', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #1f2933" transform="translate(224.913715 362.210636)">VariantStore v2 writes rel_pos,</text>
+    <text style="font-size: 7.8px; font-family: 'Arial', 'Helvetica', 'Nimbus Sans', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #1f2933" transform="translate(224.913715 371.018908)">strand-corrected alt, and</text>
+    <text style="font-size: 7.8px; font-family: 'Arial', 'Helvetica', 'Nimbus Sans', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #1f2933" transform="translate(224.913715 379.82718)">schema metadata.</text>
+   </g>
+   <g id="text_19">
+    <text style="font-weight: 700; font-size: 9.2px; font-family: 'Arial', 'Helvetica', 'Nimbus Sans', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1f2933" x="441.489715" y="346.433632" transform="rotate(-0 441.489715 346.433632)">3. Fail fast on legacy data</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 7.8px; font-family: 'Arial', 'Helvetica', 'Nimbus Sans', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #1f2933" transform="translate(441.489715 362.115574)">Old stores now raise an error</text>
+    <text style="font-size: 7.8px; font-family: 'Arial', 'Helvetica', 'Nimbus Sans', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #1f2933" transform="translate(441.489715 371.047427)">instead of silently applying</text>
+    <text style="font-size: 7.8px; font-family: 'Arial', 'Helvetica', 'Nimbus Sans', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #1f2933" transform="translate(441.489715 379.947105)">almost no variants.</text>
+   </g>
+   <g id="text_21">
+    <text style="font-weight: 700; font-size: 9.2px; font-family: 'Arial', 'Helvetica', 'Nimbus Sans', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1f2933" x="658.065715" y="346.433632" transform="rotate(-0 658.065715 346.433632)">4. Required follow-up</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 7.8px; font-family: 'Arial', 'Helvetica', 'Nimbus Sans', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #1f2933" transform="translate(658.065715 362.210636)">Regenerate cohort/new Zarr stores,</text>
+    <text style="font-size: 7.8px; font-family: 'Arial', 'Helvetica', 'Nimbus Sans', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #1f2933" transform="translate(658.065715 371.110314)">then rerun training and prediction</text>
+    <text style="font-size: 7.8px; font-family: 'Arial', 'Helvetica', 'Nimbus Sans', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #1f2933" transform="translate(658.065715 380.009993)">with the corrected inputs.</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 8px; font-family: 'Arial', 'Helvetica', 'Nimbus Sans', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #1f2933" transform="translate(669.93408 412.72755)">Regression checks added:</text>
+    <text style="font-size: 8px; font-family: 'Arial', 'Helvetica', 'Nimbus Sans', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #1f2933" transform="translate(669.93408 421.2828)">- schema enforcement</text>
+    <text style="font-size: 8px; font-family: 'Arial', 'Helvetica', 'Nimbus Sans', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #1f2933" transform="translate(669.93408 429.7443)">- legacy-store rejection</text>
+    <text style="font-size: 8px; font-family: 'Arial', 'Helvetica', 'Nimbus Sans', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #1f2933" transform="translate(669.93408 438.29955)">- sequence mutation at rel_pos</text>
+    <text style="font-size: 8px; font-family: 'Arial', 'Helvetica', 'Nimbus Sans', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #1f2933" transform="translate(669.93408 446.76105)">- minus-strand alt_tx handling</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p2efc3023f4">
+   <rect x="2.88" y="2.88" width="866.304" height="466.56"/>
+  </clipPath>
+ </defs>
+</svg>
