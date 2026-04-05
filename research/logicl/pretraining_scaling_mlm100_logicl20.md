@@ -1,6 +1,6 @@
 # Pretraining Scaling Curve Summary
 
-Generated: 2026-04-01 20:28:12
+Generated: 2026-04-05 02:59:21
 
 | Mode | Size | Epochs | Train Anchors | Batch/GPU | Neg Samples | Best Epoch | Best Loss | Best AUROC | Best AUPR |
 | --- | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
