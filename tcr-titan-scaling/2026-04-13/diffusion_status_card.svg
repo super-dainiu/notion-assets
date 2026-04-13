@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#f6f3ee"/>
+  <text x="90" y="120" font-family="DejaVu Sans, Arial, sans-serif" font-size="56" font-weight="700" fill="#1f2937">Diffusion Canonical Start</text>
+  <text x="90" y="185" font-family="DejaVu Sans, Arial, sans-serif" font-size="32" fill="#4b5563">project1 | mdlm_small | single GPU</text>
+  <text x="90" y="235" font-family="DejaVu Sans, Arial, sans-serif" font-size="32" fill="#4b5563">Live run 8091806 on gpu_rtx6000 (RTX 6000 Blackwell)</text>
+  <text x="90" y="330" font-family="DejaVu Sans, Arial, sans-serif" font-size="40" font-weight="700" fill="#111827">step 4990   loss 0.1500   1.26M tokens/s   MFU 26.69%</text>
+  <text x="90" y="390" font-family="DejaVu Sans, Arial, sans-serif" font-size="32" fill="#4b5563">memory 2.02 GiB   global batch 256   local batch 256   grad accum 1</text>
+  <text x="90" y="470" font-family="DejaVu Sans, Arial, sans-serif" font-size="30" fill="#4b5563">Optimizations: no activation checkpointing, attention_dropout=0, stable SDPA,</text>
+  <text x="90" y="515" font-family="DejaVu Sans, Arial, sans-serif" font-size="30" fill="#4b5563">online WandB, optimized dataloader, broad single-GPU queue</text>
+  <text x="90" y="575" font-family="DejaVu Sans, Arial, sans-serif" font-size="26" fill="#6b7280">FlashAttention: available on H200 only; B200 remains on SDPA</text>
+  <text x="90" y="640" font-family="DejaVu Sans, Arial, sans-serif" font-size="26" fill="#6b7280">Why this matters: the diffusion stack is now running on the same practical recipe family as the stable canonical ESM runs.</text>
+  <rect x="90" y="735" width="260" height="28" rx="14" fill="#d97706"/>
+  <rect x="370" y="735" width="260" height="28" rx="14" fill="#d97706"/>
+  <rect x="650" y="735" width="260" height="28" rx="14" fill="#d97706"/>
+  <rect x="930" y="735" width="260" height="28" rx="14" fill="#d97706"/>
+  <rect x="1210" y="735" width="260" height="28" rx="14" fill="#e5e7eb"/>
+  <text x="90" y="715" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" fill="#4b5563">queued</text>
+  <text x="370" y="715" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" fill="#4b5563">allocated</text>
+  <text x="650" y="715" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" fill="#4b5563">ramp</text>
+  <text x="930" y="715" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" fill="#4b5563">stable</text>
+  <text x="1210" y="715" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" fill="#4b5563">finish</text>
+  <text x="90" y="835" font-family="DejaVu Sans Mono, monospace" font-size="24" fill="#6b7280">WandB: https://wandb.ai/19307110036/tcr_titan_scaling_diffusion_v1/runs/ad6f7cea4475</text>
+</svg>
